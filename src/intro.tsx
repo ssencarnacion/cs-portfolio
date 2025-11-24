@@ -1,5 +1,3 @@
-import React, { SyntheticEvent } from "react";
-
 export default function App() {
   const name = "STEPHEN ENCARNACION";
   const email = "stphencarnacion@gmail.com";
@@ -8,9 +6,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white text-black font-sans">
-      <div className="max-w-screen-2xl mx-auto h-80 px-4 sm:px-8 lg:px-12 xl:px-20 2xl:px-32 py-16 lg:py-24">
-        <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] h-full min-h-[70vh] border border-black rounded-lg">
-          <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 space-y-8 border-r border-black">
+      <div className="max-w-screen-2xl mx-auto h-80 px-4 sm:px-8 lg:px-12 xl:px-20 2xl:px-32">
+        <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] h-full min-h-[70vh] border border-black/20 rounded-none">
+          <div className="flex flex-col justify-center p-8 md:p-12 lg:p-16 space-y-8 border-r border-black/20">
             <header className="space-y-4">
               <p className="text-sm font-mono font-semibold tracking-widest text-black">
                 [00]
@@ -39,7 +37,9 @@ export default function App() {
               <div className="flex space-x-3">
                 <a
                   href="https://www.linkedin.com/in/ssencarnacion/"
-                  className="px-6 py-2 border-2 border-black text-black font-medium text-sm rounded-none hover:bg-gray-100 transition duration-150"
+                  className="px-6 py-2 border border-black text-black font-medium text-sm rounded-none
+             transition duration-150
+             hover:bg-black hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -47,7 +47,9 @@ export default function App() {
                 </a>
                 <a
                   href="https://github.com/ssencarnacion"
-                  className="px-6 py-2 border-2 border-black text-black font-medium text-sm rounded-none hover:bg-gray-100 transition duration-150"
+                  className="px-6 py-2 border border-black text-black font-medium text-sm rounded-none
+             transition duration-150
+             hover:bg-black hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
